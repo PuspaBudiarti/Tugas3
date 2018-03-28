@@ -1,7 +1,8 @@
 <!doctype html>
-<title>Tgs3</title>
+<title>Tugas3</title>
 <style>
   * {
+	  font-family: Calibri;
     box-sizing: border-box; 
   }
   body {
@@ -31,7 +32,6 @@
     background: lightblue;
     height: 20vh;
 	text-align:center;
-	font-size:5;
   }
   header, footer, article, nav {
     padding: 1em;
@@ -41,18 +41,23 @@
   text-align:center;
   height: 10vh;
   }  
+
+  .buttonnav {
+	  background-color: #555555;
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+  }
 </style>
-
-
-
 <body>
-  <nav class="col-1"> Menu <br>
-	<p> Profile </p>
-	<p>
-	<font size="1.5">Source Code Group in Budi Luhur University of Jakarta.</font> <br>
-	</p>
-	
-	<p> Kategori Tulisan </p>
+  <nav class="col-1">
+	  <h2>Source Code Group</h2>
+		  <h3>Budi Luhur University of Jakarta.</h3>
+	<h4> Kategori Tulisan </h4>
 		<div class="menu-wrap">
 			<ul>
 				<li> <a href="2018"> 2018 </a>(2)</li>
@@ -69,20 +74,34 @@
 		</div>
 	
 	
+	  <footer style="text-align: center">
+		  <h3><b>Powered by: </b></h3>
+		  <h4>Group of Source Code SI</h4>
+	  </footer>
   </nav>
   
   
   <div class="col-2">
   	<header>
-	<div class="header section" id="header">SOURCE CODE VERSIONING CONTROL</div>
+	<div class="header section" id="header"><h1>SOURCE CODE VERSIONING CONTROL</h1></div>
 	<div class="clear"> </div>
 	<div id="searchbox">
 		<input class="textfield" name="a" size="24" type="text" value>
 		<input class="button" type="button" value="cari">
 	</div>
 	</header>
-	
     <main class="content">
+		<nav>
+			<a class="buttonnav" href="#">
+				Menu
+			</a>
+			<a class="buttonnav" href="#">
+				Profile
+			</a>
+			<a class="buttonnav" href="#">
+				Contact Us
+			</a>
+		</nav>
     <article>
 	07:44<br>
 	<a href="artikel1.html">Memaknai Kehilangan</a><br>
@@ -98,9 +117,9 @@
 	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	</article>
     </main>
-  	
-	
-	<footer><div id="footer"> <p>&copy 2018 Kelompok Source Code SI</p> </div> </footer>
+
+
+	<footer style="background-color: yellowgreen; text-align:center"> <h2>&copy 2018 Kelompok Source Code SI</h2></footer>
 	
 	
   </div>
